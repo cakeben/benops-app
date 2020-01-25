@@ -39,3 +39,4 @@ node {
     docker.image('demo').push('latest')
     }
 }
+}
