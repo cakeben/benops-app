@@ -36,7 +36,7 @@ node {
    
     stage('Push Image to ECR'){
   docker.withRegistry('https://995041947753.dkr.ecr.eu-west-2.amazonaws.com', 'ecr:eu-west-2:benops') {
-    docker.image('demo').push('latest')
+    docker.image('test-test-ecr-test').push('latest')
     }
 }
 }
